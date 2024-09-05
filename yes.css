@@ -127,14 +127,17 @@ nav li:first-child{
 
 .home{
     width: 100%;
-    height: 150px;
-    background: #dddada;
+    height: 200px;
+    background: #dddbdb;
 }
-
+/*
+#dddada;
+*/
 .home .content{
    
     text-align: center;
     padding-top: 50px;
+    
 }
 
 
@@ -147,6 +150,9 @@ nav li:first-child{
 .home .content h5{
     font-weight: bold;
     color: #2e86c1;
+    margin-top: 65px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
 }
 
 .home .content .box{
