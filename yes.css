@@ -125,106 +125,41 @@ nav li:first-child{
 
 /* HOME PART STARTS HERE */
 
-.home{
-    width: 100%;
-    height: 200px;
-    background: #dddbdb;
-}
-/*
-#dddada;
-*/
-.home .content{
-   
-    text-align: center;
-    padding-top: 50px;
-    
-}
 
 
 
-.home .content a img:hover{
-    transform: scale(1.1);
-}
 
 
-.home .content h5{
-    font-weight: bold;
-    color: #2e86c1;
-    margin-top: 65px;
-    font-weight: 600;
-    text-shadow: 0px 1px 1px black;
-}
-
-.home .content .box{
-    display: flex;
-}
-
-.home .content h5{
-    color: #ffa500;
-}
-
-
-.home .content span{
-    color: #2e86c1;
-}
-
-
-.content h6 a{
-    text-decoration: none;
-    font-size: 12px;
-    color: #2e86c1;
-    cursor: pointer;
-}
-
-
-.content h6 a:hover{
-    transform: scale(1.1);
-}
 
 /* HOME PART ENDS HERE */
 
 
 
 
-
-
-.about{
-    padding: 50px;
-   
-    background: #f9f9f9;
-}
-.about .container{
-    background-color: #ffffff;
-}
-
-.about .card{
-    border-radius: 50px;
-}
-
-.about .card img{
-    height: 350px;
-    border-radius: 50px;
-}
-
-
-.about h2{
+#features {
+    background-color: #f9f9f9;
+    padding: 7% 8%;
     text-align: center;
-    font-weight: 600;
-   
-    letter-spacing: 1px;
-  
-}
-
-.about p{
-    font-weight: 500;
-   word-spacing: 1px;
-   line-height: 45px;
 }
 
 
+#features h3 {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#features p{
+    word-spacing: 0.7rem;
+}
 
 
 
+
+
+
+
+
+
+/* home part ends here  */
 
 .main-txt h1{
     text-align: center;
@@ -262,12 +197,14 @@ nav li:first-child{
 }
 
 .card{
-    padding: 50px;
-    height: 450px;
+   
+    padding: 3%;
+    margin: 1.2rem 0;
+    height: 30rem;
     border-radius: 5px;
-    border: none;
+    border: none; 
     justify-content: space-around;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px; 
 }
 
  .card img{
@@ -336,6 +273,37 @@ nav li:first-child{
 
 
 
+
+
+
+
+
+
+/* css editing */
+
+
+
+
+#carry {
+    padding: 7% 8%;
+}
+
+.carry-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+
+#carry h3{
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+
+#carry p{
+    padding-top: 7%;
+    font-size: 20px;
+    font-family: "Agbalumo", system-ui;
+}
 
 
 
