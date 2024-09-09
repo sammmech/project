@@ -126,11 +126,15 @@ nav li:first-child{
 }
 
 .home .content h5{
-    color: white;
+    color: #2e86c1;
     font-size: 40px;
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
+}
+
+.home .content h5 span{
+    color: #ffa500;
 }
 
 
@@ -175,12 +179,14 @@ h3 a{
 
 
 p{
+    font-family: "Roboto Condensed", sans-serif;
     color: black;
 }
 
-.icon{
-    color: #ffa500;
-    margin-bottom: 1.5rem;
+.feature-box img{
+    padding-bottom: 1.2rem;
+
+   margin-bottom: 2.5rem; 
 }
 
 .icon:hover{
@@ -201,7 +207,7 @@ p{
 
 
 #mainly {
-    background-color: #f9f9f9;
+    background-color: #d8d8d8;
     padding: 0 12%; 
 }
 
@@ -223,6 +229,7 @@ color: #2e86c1;
 
 
 p{
+    font-family: "Roboto Condensed", sans-serif;
     color: black;
 }
 
@@ -263,3 +270,57 @@ p{
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #000000;
+}
+
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    color: #2e86c1;
+    text-shadow: 0px 0px 1px #2e86c1;
+}
+
+#footer h1 span{
+    color: #ffa500;
+}
+
+#footer p{
+    color: #ffffff;
+}
+
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: #ffa500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: #2e86c1;
+    border: 2px solid #ffa500;
+}
+
+
+#footer .credit a{
+    text-decoration: none;
+}
+/*Footer Section Ends*/

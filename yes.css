@@ -34,7 +34,7 @@ nav{
     background-color: #2e86c1;
     display: flex;
     position: fixed;
-    z-index: 99;
+    z-index: 99; 
    
    
 }
@@ -136,30 +136,55 @@ nav li:first-child{
 
 
 
-#features {
-    background-color: #f9f9f9;
-    padding: 7% 8%;
+.home{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./cable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .content{
     text-align: center;
+    padding-top: 80px;
 }
 
-
-#features h3 {
+.home .content h3{
+    color: #ffa500;
+    font-size: 30px;
     font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
 }
 
-#features p{
+.home .content h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+
+.home .content p{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: "Agbalumo", system-ui;
+    font-weight: lighter;
     word-spacing: 0.7rem;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
-
-
-
-
 
 
 
 
 
 /* home part ends here  */
+
+
+
 
 .main-txt h1{
     text-align: center;
@@ -171,14 +196,18 @@ nav li:first-child{
 }
 
 .main-txt h1{
-    color: #ffa500;
+    color: #2e86c1;
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    font-weight: bolder;
 }
 
 
 
 .main-txt h1 span{
-    color: #2e86c1;
-}
+    color: #ffa500;
+} 
+   
+
 
 
 
@@ -192,9 +221,10 @@ nav li:first-child{
     text-shadow: 0px 1px 1px black;
 }
 
-.main-txt h1 span{
-    color: #2e86c1;
-}
+
+
+
+
 
 .card{
    
@@ -216,11 +246,13 @@ nav li:first-child{
 }
 
  .card .card-body h3{
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 25px;
     font-weight: 600;
 }
 
  .card .card p{
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 15px;
 }
 
@@ -284,20 +316,31 @@ nav li:first-child{
 
 
 
+
+.carry{
+    background-color: #f9f9f9;
+}
+
+
+
 #carry {
-    padding: 7% 8%;
+     padding: 7% 8%; 
 }
 
 .carry-box{
     text-align: center;
-    padding: 4.5%;
+    padding: 4.5%; 
 }
 
 
 #carry h3{
+    color: #2e86c1;
     font-family: "Protest Guerrilla", sans-serif;
 }
 
+#carry h3 span{
+    color: #ffa500;
+}
 
 #carry p{
     padding-top: 7%;
@@ -318,14 +361,22 @@ nav li:first-child{
 
 
 
+#carry .numb p{
+    font-size: 50px;
+}
+
+
+#carry .numb img{
+    margin-top: 20px;
+    border-radius: 20%;
+}
 
 
 
 
-
-
-
-
+.move{
+    background-color: #d8d8d8;
+}
 
 
 
@@ -368,6 +419,26 @@ nav li:first-child{
     .sidebar{
         width: 100%;
     }
+
+
+        .home{
+            background-position: 50%;
+        }
+    
+    }
+    
+    @media (max-width:450px){
+    
+      .home{
+           
+            height: 40vh;
+        }
+
+        .home .content p{
+            font-size: 10px;
+        }
+
+
 }
 
 
