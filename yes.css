@@ -381,7 +381,9 @@ nav li:first-child{
 }
 
 
-
+.move .container img{
+    width: 500px;
+}
 
 
 
@@ -451,6 +453,14 @@ nav li:first-child{
 
 @media (max-width:765px){
     
+
+
+    .move .container img{
+        width: 400px;
+    }
+    
+    
+
 #carry .numb img{
     width: 420px;
    
