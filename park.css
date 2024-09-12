@@ -51,6 +51,7 @@ max-height: 100vh;
  nav a{
     height: 100%;
     font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
     padding: 0 30px;
     text-decoration: none;
     display: flex;
